@@ -46,7 +46,7 @@ exports.deleteOrder = (req, res) => {
 };
 
 exports.getOrderItemDetails = (req, res) =>{
-    orderItemRepository.getOrderItemDetails()
+    orderItemRepository.getCustomerOrderDetails()
         .then( (orderItem) => {
         res.status(200).send(orderItem);
     }).catch((err) => res.send(err));

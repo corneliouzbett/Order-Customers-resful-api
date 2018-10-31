@@ -1,7 +1,6 @@
-import * as sequelize from "sequelize";
-
 const Sequelize = require('../models/index');
-const sequelizeInstance = Sequelize.getSequelizeInstance;
+
 module.exports.selectQueryInterface = (selectQuery) => {
-    return sequelizeInstance.query(selectQuery, {type: sequelize.QueryTypes.SELECT});
+    return Sequelize.getSequelizeInstance.query(selectQuery,
+        {type: Sequelize.getSequelizeInstance.QueryTypes.SELECT});
 };
