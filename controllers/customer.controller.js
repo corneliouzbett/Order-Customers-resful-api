@@ -1,10 +1,19 @@
 const customerService = require('../service/customer.service');
 const customerModel = require('../models');
+const OrderItemRepo = require('../repository/OrderItemRepository');
 
 exports.getAllCustomers = (req, res) => {
     return customerService.getAllCustomers()
         .then(customer => {
             res.status(200).send(customer)
+        })
+        .catch((err) => res.send(err));
+};
+
+exports.getAllRecords = (req, res) => {
+    return OrderItemRepo.getAllRecords()
+        .then(orderItem => {
+            res.status(200).send(orderItem)
         })
         .catch((err) => res.send(err));
 };

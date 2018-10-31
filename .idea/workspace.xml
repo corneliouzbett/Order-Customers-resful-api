@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fbfb567-b0a5-4bae-90f0-4013da6ddfb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/OrderItemRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/repository/OrderItemRepository.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/customer.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/customer.controller.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,17 +48,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="18348" />
+          <entry key="js" value="18427" />
           <entry key="json" value="376" />
           <entry key="ts" value="414" />
-          <entry key="txt" value="472" />
+          <entry key="txt" value="525" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="376" />
-          <entry key="JavaScript" value="18348" />
-          <entry key="PLAIN_TEXT" value="472" />
+          <entry key="JavaScript" value="18427" />
+          <entry key="PLAIN_TEXT" value="525" />
           <entry key="TypeScript" value="414" />
         </counts>
       </usages-collector>
@@ -110,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/customer.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="405">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -390,7 +390,7 @@
       <workItem from="1540879809461" duration="18159000" />
       <workItem from="1540903759280" duration="3482000" />
       <workItem from="1540914992823" duration="29111000" />
-      <workItem from="1540985079015" duration="4748000" />
+      <workItem from="1540985079015" duration="5005000" />
     </task>
     <task id="LOCAL-00001" summary="Removed logger files and subdirectories">
       <created>1540976074052</created>
@@ -469,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540989197907</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added function to getAll records from database">
+      <created>1540990068024</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540990068024</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -505,7 +512,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164425000" />
+    <option name="totallyTimeSpent" value="164682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,7 +589,8 @@
     <MESSAGE value="Added OrderItem to orderController feature" />
     <MESSAGE value="Refactored code to add custom sequelize methods" />
     <MESSAGE value="Customized customer Order details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customized customer Order details" />
+    <MESSAGE value="Added function to getAll records from database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added function to getAll records from database" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/migrations/20181030131229-create-item-selected.js" />
@@ -813,8 +821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/customer.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="405">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
