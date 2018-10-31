@@ -19,7 +19,6 @@ module.exports = (app) => {
     // order routes
     app.post('/api/orders', ordersController.createOrder);
     app.get('/api/orders', ordersController.getAllOrders);
-    app.get('/api/orderItems', ordersController.getOrderItemDetails);
     app.get('/api/orders/:id', ordersController.getOrderById);
     app.put('/api/orders/:id', ordersController.updateOrder);
     app.delete('/api/orders/:id', ordersController.deleteOrder);
@@ -29,4 +28,7 @@ module.exports = (app) => {
     app.get('/api/transactions/:id', transactionController.findTransactionById);
     app.put('/api/transactions/:id', transactionController.updateTransaction);
     app.delete('/api/transactions/:id', transactionController.deleteTransaction);
+    //custom routes
+    app.get('/api/orderItems', ordersController.getOrderItemDetails);
+    app.get('/api/all', customerController.getAllRecords);
 };
