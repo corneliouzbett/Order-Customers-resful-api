@@ -43,3 +43,7 @@ exports.deleteOrder = (req, res) => {
         log(chalk.blue("success:  deleted successfully a order with ID :: "+req.params.id));
     });
 };
+
+exports.getOrderItemDetails = () =>{
+
+};
