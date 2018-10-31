@@ -1,0 +1,44 @@
+{
+  "name": "orders-customers-restful-api",
+  "version": "1.0.0",
+  "description": "Orders-customers-restful-api",
+  "main": "server.js",
+  "scripts": {
+    "stop": "exit 1",
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon ./server.js",
+    "build": "babel src -d dist",
+    "mocha": "mocha --compilers js:babel-register",
+    "test": "mocha --compilers js:babel-register --recursive ./test/"
+  },
+  "keywords": [
+    "mysql",
+    "Orders-customers"
+  ],
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "author": "JSA",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "chalk": "^2.4.1",
+    "config": "^1.20.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6",
+    "sequelize-cli": "^5.2.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.18.4"
+  }
+}
