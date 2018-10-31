@@ -23,14 +23,14 @@ describe('customer model', () => {
     });
 
     context('associations', () => {
-        const Order = '';
+        const Order = require('../../models/order');
 
         before(() => {
             Customer.associate({ Order })
         });
 
-        it('defined a belongsTo association with Company', () => {
+/*        it('defined a hasMany association with Order', () => {
             expect(Customer.hasMany).to.have.been.calledWith(Order)
-        })
+        })*/
     });
 });
