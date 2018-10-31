@@ -35,6 +35,6 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 module.exports = db;
-module.exports.sequelizeInstance = () => {
+module.exports.getSequelizeInstance = () => {
     return sequelize;
 };

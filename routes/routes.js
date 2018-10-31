@@ -19,6 +19,7 @@ module.exports = (app) => {
     // order routes
     app.post('/api/orders', ordersController.createOrder);
     app.get('/api/orders', ordersController.getAllOrders);
+    app.get('/api/orderItems', ordersController.getOrderItemDetails);
     app.get('/api/orders/:id', ordersController.getOrderById);
     app.put('/api/orders/:id', ordersController.updateOrder);
     app.delete('/api/orders/:id', ordersController.deleteOrder);
