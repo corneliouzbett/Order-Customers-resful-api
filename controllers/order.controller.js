@@ -1,4 +1,5 @@
 const orderService = require('../service/order.service');
+const orderItemRepository = require('../repository/OrderItemRepository');
 const models = require('../models');
 const chalk = require('chalk');
 const log = console.log;
@@ -44,6 +45,10 @@ exports.deleteOrder = (req, res) => {
     });
 };
 
-exports.getOrderItemDetails = () =>{
+exports.getOrderItemDetails = (req, res) =>{
+    orderItemRepository.getOrderItemDetails()
+        .then( (orderItem) => {
+        res.status(200).send(orderItem);
+    }).catch((err) => res.send(err));
 
 };
