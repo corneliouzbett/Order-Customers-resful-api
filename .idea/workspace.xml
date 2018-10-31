@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fbfb567-b0a5-4bae-90f0-4013da6ddfb5" name="Default Changelist" comment="" />
+    <list default="true" id="2fbfb567-b0a5-4bae-90f0-4013da6ddfb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/controllers/customer.controller.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/customer.controller.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/controllers/item.controller.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/item.controller.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/controllers/order.controller.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/order.controller.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/services/customer.service.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/customer.service.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/services/item.service.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/item.service.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/app/services/order.service.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/order.service.spec.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,7 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="417" />
+          <entry key="js" value="418" />
           <entry key="json" value="29" />
           <entry key="ts" value="9" />
         </counts>
@@ -38,7 +46,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="29" />
-          <entry key="JavaScript" value="417" />
+          <entry key="JavaScript" value="418" />
           <entry key="TypeScript" value="9" />
         </counts>
       </usages-collector>
@@ -47,12 +55,14 @@
           <entry key="js" value="17728" />
           <entry key="json" value="376" />
           <entry key="ts" value="414" />
+          <entry key="txt" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="376" />
           <entry key="JavaScript" value="17728" />
+          <entry key="PLAIN_TEXT" value="146" />
           <entry key="TypeScript" value="414" />
         </counts>
       </usages-collector>
@@ -65,74 +75,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/item.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/customer.controller.js">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/order.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="65" lean-forward="true" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/route/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/order.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/transaction.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/transaction.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="69">
+              <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+              <folding>
+                <element signature="e#441#968#0" />
+                <element signature="e#997#1182#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -224,12 +175,14 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1644" />
-    <option name="y" value="213" />
-    <option name="width" value="1356" />
-    <option name="height" value="555" />
+    <option name="x" value="1366" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -241,6 +194,11 @@
             <path>
               <item name="Orders-customers-restful-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="Orders-customers-restful-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Orders-customers-restful-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Orders-customers-restful-api" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -374,8 +332,44 @@
       <workItem from="1540760232888" duration="8981000" />
       <workItem from="1540879809461" duration="18159000" />
       <workItem from="1540903759280" duration="3482000" />
-      <workItem from="1540914992823" duration="24218000" />
+      <workItem from="1540914992823" duration="25638000" />
     </task>
+    <task id="LOCAL-00001" summary="Removed logger files and subdirectories">
+      <created>1540976074052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540976074052</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed old routes">
+      <created>1540976117036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540976117036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed old service layer">
+      <created>1540976151159</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540976151159</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Removed old models">
+      <created>1540976202802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540976202802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Removed the old controllers">
+      <created>1540976247846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540976247846</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -411,7 +405,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154784000" />
+    <option name="totallyTimeSpent" value="156204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +418,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1920" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.5026288" side_tool="true" weight="0.21413502" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.21518987" />
@@ -435,12 +428,12 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.38380653" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.38331574" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.53732914" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.53643084" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3280757" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -474,22 +467,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Removed logger files and subdirectories" />
+    <MESSAGE value="Removed old routes" />
+    <MESSAGE value="Removed old service layer" />
+    <MESSAGE value="Removed old models" />
+    <MESSAGE value="Removed the old controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the old controllers" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/app/controller/item.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#438#965#0" />
-            <element signature="e#994#1179#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -562,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/controllers/customer.controller.spec.js">
+    <entry file="file://$PROJECT_DIR$/test/controllers/customer.controller.spec.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/seeders/20181030132817-Item.js">
@@ -593,17 +583,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/controllers/item.controller.spec.js">
+    <entry file="file://$PROJECT_DIR$/test/controllers/item.controller.spec.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/services/customer.service.spec.js">
+    <entry file="file://$PROJECT_DIR$/test/services/customer.service.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/services/item.service.spec.js">
+    <entry file="file://$PROJECT_DIR$/test/services/item.service.spec.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/models/ordermodel.js">
@@ -683,7 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/app/services/order.service.spec.js">
+    <entry file="file://$PROJECT_DIR$/test/services/order.service.spec.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/route/routes.spec.js">
@@ -756,17 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/transaction.service.js">
+    <entry file="file://$PROJECT_DIR$/controllers/customer.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/transaction.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state relative-caret-position="621">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -774,6 +757,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -798,17 +788,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/routes.js">
+    <entry file="file://$PROJECT_DIR$/controllers/transaction.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        <state relative-caret-position="227">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/customer.controller.js">
+    <entry file="file://$PROJECT_DIR$/service/transaction.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="108">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="49" column="17" lean-forward="true" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+          <folding>
+            <element signature="e#441#968#0" />
+            <element signature="e#997#1182#0" />
+          </folding>
         </state>
       </provider>
     </entry>
