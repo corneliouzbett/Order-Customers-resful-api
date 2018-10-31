@@ -13,6 +13,14 @@ exports.getAllCustomers = (req, res) => {
 exports.getAllRecords = (req, res) => {
     return OrderItemRepo.getAllRecords()
         .then(orderItem => {
+            var orderitems = {};
+            orderItem.forEach(function (item) {
+                var order = orderitems[item.customer_name] = orderitems[item.customer_name] =
+                    orderitems[item.phone_number] = orderitems[item.phone_number] || {};
+                order[item.Domain] = true;
+            });
+
+            console.log(JSON.stringify(orderitems, null, 4));
             res.status(200).send(orderItem)
         })
         .catch((err) => res.send(err));

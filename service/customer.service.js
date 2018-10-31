@@ -5,5 +5,5 @@ module.exports.getAllCustomers = () => {
 };
 
 module.exports.getCustomerById = (id) =>{
-    return customerModel.Customer.findById(id);
+    return customerModel.Customer.findByPk(id);
 };
