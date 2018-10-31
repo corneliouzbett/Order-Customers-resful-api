@@ -5,7 +5,6 @@ const chalk = require('chalk');
 const log = console.log;
 
 exports.createOrder = (req, res) => {
-    console.log("Data : ",req.body.order_date+"  :: "+req.body.quantity_ordered);
     models.Order.create({ id: req.body.id, order_date: req.body.order_date, customer_id: req.body.customer_id})
         .then(order => {
             res.status(200).send(order);

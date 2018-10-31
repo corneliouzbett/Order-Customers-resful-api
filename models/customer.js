@@ -4,6 +4,7 @@ module.exports = (sequelize, DataTypes) => {
         customer_name: DataTypes.STRING,
         phone_number: DataTypes.INTEGER
     }, {timestamps: false});
+
     Customer.associate = function (models) {
         Customer.hasMany(models.Order, {foreignKey: 'customer_id'})
     };

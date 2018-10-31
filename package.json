@@ -31,6 +31,7 @@
     "mysql2": "^1.5.3",
     "sequelize": "^4.37.6",
     "sequelize-cli": "^5.2.0",
+    "sinon": "^7.1.0",
     "winston": "^2.2.0"
   },
   "devDependencies": {
