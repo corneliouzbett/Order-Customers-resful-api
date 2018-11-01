@@ -14,3 +14,19 @@ describe('Order Controller', () => {
         expect(res.send.calledTwice).to.be.false;
     })
 });
+describe('getOrderById', () => {
+    let stub;
+    beforeEach(() => {
+        stub = sinon.stub(OrderController, 'getOrderById').resolves('one order');
+    });
+    afterEach(() => {
+        stub.restore();
+    });
+    it('should return an order', function () {
+        OrderController.getOrderById(3).then((order) => {
+            expect(order).to.equal('one order');
+            //expect(stub).should.have.been.calledWith(3);
+        })
+    })
+
+});

@@ -8,6 +8,7 @@ const {
 } = require('sequelize-test-helpers');
 
 const CustomerModel = require('../../models/customer');
+const models = require('../../models');
 
 describe('customer model', () => {
     const Customer = CustomerModel(sequelize, dataTypes);
@@ -29,8 +30,8 @@ describe('customer model', () => {
             Customer.associate({ Order })
         });
 
-/*        it('defined a hasMany association with Order', () => {
-            expect(Customer.hasMany).to.have.been.calledWith(Order)
-        })*/
+        it('defined a hasMany association with Order', () => {
+            expect(models.Customer.hasMany).should.be.have.calledWith(Order);
+        })
     });
 });
