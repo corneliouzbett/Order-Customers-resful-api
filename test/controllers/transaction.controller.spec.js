@@ -1,13 +1,13 @@
 const chai = require('chai');
 const expect = chai.expect;
 const sinon = require("sinon");
-const OrderController = require("../../controllers/order.controller");
+const transactionController = require("../../controllers/transaction.controller");
 
-describe('Order Controller', () => {
-    it('should return list of orders', () => {
+describe('Transaction Controller', () => {
+    it('should return list of transactions', () => {
         let req = {};
         let res = {send: sinon.spy()};
-        OrderController.getAllOrders(req, res);
+        transactionController.findAllTransaction(req, res);
         expect(res.send.calledOnce).to.be.false;
         expect(res.send.isSinonProxy).to.be.true;
         expect(res.send.args).to.be.array;
