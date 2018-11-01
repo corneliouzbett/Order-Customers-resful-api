@@ -1,5 +1,5 @@
 const models = require('../models');
 
-module.exports.getAllTransaction = () =>{
+module.exports.getAllTransaction = () => {
     return models.Transaction.findAll();
 };

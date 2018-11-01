@@ -5,5 +5,5 @@ module.exports.getAllOrders = () => {
 };
 
 module.exports.getAllTransaction = () =>{
-    return models.Order.findAllTransaction().getAllTransaction();
+    return models.Order.findAll();
 };
