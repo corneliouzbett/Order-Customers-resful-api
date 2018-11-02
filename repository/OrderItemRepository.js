@@ -7,7 +7,7 @@ module.exports.getCustomerOrderDetails = () => {
 };
 
 module.exports.getAllRecords = () => {
-    let query = 'SELECT Transactions.id as #,customer_name, phone_number,Orders.id as OrderId, order_date, Items.id as ItemId,' +
+    let query = 'SELECT Transactions.id as id,customer_name, phone_number,Orders.id as OrderId, order_date, Items.id as ItemId,' +
         ' item_name, unit_cost, quantity_ordered, (quantity_ordered * unit_cost) as Total FROM Orders, Items,' +
         ' Transactions, Customers where Orders.customer_id = Customers.id && Items.id = Transactions.item_id' +
         ' && Orders.id = Transactions.order_id;';
