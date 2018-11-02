@@ -15,10 +15,10 @@ exports.getAllRecords = (req, res) => {
         .then(orderItem => {
             let orderitems = {};
             orderItem.forEach(function (item) {
-                let order = orderitems[item.customer_name] = orderitems[item.customer_name] = orderitems[item.phone_number] = orderitems[item.phone_number] || {};
-                order[item.Domain] = true;
+                let order = orderitems[item.customer_name] = orderitems[item.customer_name]  || {};
+                order[item.order_date] =order[item.order_date];
             });
-            
+
             console.log(JSON.stringify(orderitems, null, 4));
             res.status(200).send(orderItem)
         })
