@@ -3,37 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2fbfb567-b0a5-4bae-90f0-4013da6ddfb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/growl/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/growl/History.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/growl/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/growl/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/growl/lib/growl.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/growl/lib/growl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/growl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/growl/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/growl/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/growl/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/minimatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/minimatch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/CONTRIBUTORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/test/basic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/test/foreach.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/test/memory-leak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/node_modules/lru-cache/test/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/test/basic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/test/brace-expand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/test/caching.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/test/defaults.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/test/extglob-ending-with-state-char.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/OrderItemRepository.js" beforeDir="false" afterPath="$PROJECT_DIR$/repository/OrderItemRepository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/order.controller.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/order.controller.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/models/customer.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/customer.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/item.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/item.spec.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,43 +24,43 @@
           <entry key="project.open.time.131" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="493" />
-          <entry key="json" value="32" />
+          <entry key="js" value="498" />
+          <entry key="json" value="33" />
           <entry key="ts" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="32" />
-          <entry key="JavaScript" value="493" />
+          <entry key="JSON" value="33" />
+          <entry key="JavaScript" value="498" />
           <entry key="TypeScript" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="21571" />
+          <entry key="js" value="21816" />
           <entry key="json" value="429" />
           <entry key="ts" value="414" />
-          <entry key="txt" value="1098" />
+          <entry key="txt" value="1101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="429" />
-          <entry key="JavaScript" value="21571" />
-          <entry key="PLAIN_TEXT" value="1098" />
+          <entry key="JavaScript" value="21816" />
+          <entry key="PLAIN_TEXT" value="1101" />
           <entry key="TypeScript" value="414" />
         </counts>
       </usages-collector>
@@ -110,37 +81,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/item.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/order.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" lean-forward="true" selection-start-column="36" selection-end-line="7" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/services/item.service.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/controllers/order.controller.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="378">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -155,19 +99,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/mockData/customerMockData.js">
+        <entry file="file://$PROJECT_DIR$/test/models/item.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="324">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/item.spec.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/models/customer.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+            <state relative-caret-position="594">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding>
+                <element signature="e#441#968#0" />
+                <element signature="e#997#1182#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -175,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/services/customer.service.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="135">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -184,7 +155,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/models/transaction.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="594">
               <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
@@ -193,7 +164,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/route/routes.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-541">
+            <state relative-caret-position="1512">
               <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
             </state>
           </provider>
@@ -259,7 +230,6 @@
         <option value="$PROJECT_DIR$/controllers/order.controller.js" />
         <option value="$PROJECT_DIR$/models/transaction.js" />
         <option value="$PROJECT_DIR$/test/models/order.spec.js" />
-        <option value="$PROJECT_DIR$/test/models/item.spec.js" />
         <option value="$PROJECT_DIR$/service/customer.service.js" />
         <option value="$PROJECT_DIR$/test/mockData/customerMockData.js" />
         <option value="$PROJECT_DIR$/test/route/routes.spec.js" />
@@ -273,9 +243,10 @@
         <option value="$PROJECT_DIR$/service/transaction.service.js" />
         <option value="$PROJECT_DIR$/service/order.service.js" />
         <option value="$PROJECT_DIR$/test/services/order.service.spec.js" />
-        <option value="$PROJECT_DIR$/test/models/customer.spec.js" />
         <option value="$PROJECT_DIR$/repository/OrderItemRepository.js" />
         <option value="$PROJECT_DIR$/test/controllers/order.controller.spec.js" />
+        <option value="$PROJECT_DIR$/test/models/item.spec.js" />
+        <option value="$PROJECT_DIR$/test/models/customer.spec.js" />
       </list>
     </option>
   </component>
@@ -299,9 +270,9 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="25" />
-    <option name="width" value="1366" />
-    <option name="height" value="743" />
+    <option name="x" value="1366" />
+    <option name="width" value="960" />
+    <option name="height" value="1072" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -342,13 +313,12 @@
             <path>
               <item name="Orders-customers-restful-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="Orders-customers-restful-api" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Orders-customers-restful-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="Orders-customers-restful-api" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.getOrderById.should return an order">
+  <component name="RunManager" selected="npm.test">
     <configuration name="test" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -403,7 +373,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Order Service" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Item Model.associations" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -411,13 +381,14 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/services/order.service.spec.js</test-file>
+      <test-file>$PROJECT_DIR$/test/models/item.spec.js</test-file>
       <test-names>
-        <name value="Order Service" />
+        <name value="Item Model" />
+        <name value="associations" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="customer model.associations.defined a hasMany association with Order" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="Item Model.associations.defined a hasOne association with Transaction" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -425,11 +396,11 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/models/customer.spec.js</test-file>
+      <test-file>$PROJECT_DIR$/test/models/item.spec.js</test-file>
       <test-names>
-        <name value="customer model" />
+        <name value="Item Model" />
         <name value="associations" />
-        <name value="defined a hasMany association with Order" />
+        <name value="defined a hasOne association with Transaction" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -463,19 +434,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.test" />
-      <item itemvalue="Mocha.Order Service" />
-      <item itemvalue="Mocha.customer model.associations.defined a hasMany association with Order" />
       <item itemvalue="Mocha.getOrderById" />
       <item itemvalue="Mocha.getOrderById.should return an order" />
+      <item itemvalue="Mocha.Item Model.associations.defined a hasOne association with Transaction" />
+      <item itemvalue="Mocha.Item Model.associations" />
+      <item itemvalue="npm.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="Mocha.Item Model.associations.defined a hasOne association with Transaction" />
+        <item itemvalue="Mocha.Item Model.associations" />
         <item itemvalue="Mocha.getOrderById.should return an order" />
         <item itemvalue="Mocha.getOrderById" />
-        <item itemvalue="Mocha.customer model.associations.defined a hasMany association with Order" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="Mocha.Order Service" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +474,8 @@
       <workItem from="1540914992823" duration="29111000" />
       <workItem from="1540985079015" duration="19405000" />
       <workItem from="1541050121364" duration="10624000" />
-      <workItem from="1541070439859" duration="5829000" />
+      <workItem from="1541070439859" duration="6119000" />
+      <workItem from="1541137562174" duration="3189000" />
     </task>
     <task id="LOCAL-00001" summary="Removed logger files and subdirectories">
       <created>1540976074052</created>
@@ -701,43 +673,50 @@
       <option name="project" value="LOCAL" />
       <updated>1541059916542</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Refactored code">
+      <created>1541091042423</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1541091042423</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="customer_model_associations_defined_a_hasMany_association_with_Order - 2018.11.01 at 14h 13m 37s.xml">
-      <configuration name="customer model.associations.defined a hasMany association with Order" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="customer_model_associations_defined_a_hasMany_association_with_Order - 2018.11.01 at 14h 15m 33s.xml">
-      <configuration name="customer model.associations.defined a hasMany association with Order" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="customer_model_associations_defined_a_hasMany_association_with_Order - 2018.11.01 at 14h 17m 11s.xml">
-      <configuration name="customer model.associations.defined a hasMany association with Order" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="customer_model_associations_defined_a_hasMany_association_with_Order - 2018.11.01 at 14h 19m 16s.xml">
-      <configuration name="customer model.associations.defined a hasMany association with Order" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="customer_model_associations_defined_a_hasMany_association_with_Order - 2018.11.01 at 14h 19m 38s.xml">
-      <configuration name="customer model.associations.defined a hasMany association with Order" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="customer_model_associations_defined_a_hasMany_association_with_Order - 2018.11.01 at 14h 20m 09s.xml">
-      <configuration name="customer model.associations.defined a hasMany association with Order" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="customer_model_associations_defined_a_hasMany_association_with_Order - 2018.11.01 at 14h 20m 54s.xml">
-      <configuration name="customer model.associations.defined a hasMany association with Order" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="getOrderById - 2018.11.01 at 19h 38m 11s.xml">
-      <configuration name="getOrderById" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="getOrderById_should_return_an_order - 2018.11.01 at 19h 38m 36s.xml">
-      <configuration name="getOrderById.should return an order" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="getOrderById_should_return_an_order - 2018.11.01 at 19h 48m 34s.xml">
       <configuration name="getOrderById.should return an order" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Item_Model_associations_defined_a_hasOne_association_with_Transaction - 2018.11.02 at 08h 46m 51s.xml">
+      <configuration name="Item Model.associations.defined a hasOne association with Transaction" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Item_Model_associations_defined_a_hasOne_association_with_Transaction - 2018.11.02 at 08h 47m 11s.xml">
+      <configuration name="Item Model.associations.defined a hasOne association with Transaction" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Item_Model_associations_defined_a_hasOne_association_with_Transaction - 2018.11.02 at 08h 48m 37s.xml">
+      <configuration name="Item Model.associations.defined a hasOne association with Transaction" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Item_Model_associations - 2018.11.02 at 09h 01m 04s.xml">
+      <configuration name="Item Model.associations" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Item_Model_associations_defined_a_hasOne_association_with_Transaction - 2018.11.02 at 09h 04m 09s.xml">
+      <configuration name="Item Model.associations.defined a hasOne association with Transaction" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Item_Model_associations_defined_a_hasOne_association_with_Transaction - 2018.11.02 at 09h 05m 18s.xml">
+      <configuration name="Item Model.associations.defined a hasOne association with Transaction" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Item_Model_associations_defined_a_hasOne_association_with_Transaction - 2018.11.02 at 09h 06m 54s.xml">
+      <configuration name="Item Model.associations.defined a hasOne association with Transaction" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Item_Model_associations_defined_a_hasOne_association_with_Transaction - 2018.11.02 at 09h 06m 55s.xml">
+      <configuration name="Item Model.associations.defined a hasOne association with Transaction" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Item_Model_associations_defined_a_hasOne_association_with_Transaction - 2018.11.02 at 09h 36m 15s.xml">
+      <configuration name="Item Model.associations.defined a hasOne association with Transaction" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195535000" />
+    <option name="totallyTimeSpent" value="199014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -749,24 +728,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
+    <frame x="1366" y="-2" width="1920" height="1082" extended-state="6" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.5026288" side_tool="true" weight="0.21413502" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" weight="0.21518987" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4973712" visible="true" weight="0.28539494" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4973712" visible="true" weight="0.23681435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39915523" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4994726" weight="0.5805921" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4994726" weight="0.65153116" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32912722" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052744" side_tool="true" weight="0.38322368" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5352261" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5343189" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.3280757" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32946146" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -814,7 +792,6 @@
     <MESSAGE value="Added function to getAll records from database" />
     <MESSAGE value="&#10;added to the customer controller" />
     <MESSAGE value="added to the customer controller" />
-    <MESSAGE value="Refactored code" />
     <MESSAGE value="Added order model test" />
     <MESSAGE value="Added customer and item model test" />
     <MESSAGE value="Refactored config json" />
@@ -828,7 +805,8 @@
     <MESSAGE value="disabled database logging" />
     <MESSAGE value="added item service test" />
     <MESSAGE value="added order service test and refactored code" />
-    <option name="LAST_COMMIT_MESSAGE" value="added order service test and refactored code" />
+    <MESSAGE value="Refactored code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored code" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -890,24 +868,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seeders/20181031062332-model-order.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/service/order.service.js" />
     <entry file="file://$PROJECT_DIR$/src/app/controller/order.controller.js" />
     <entry file="file://$PROJECT_DIR$/src/app/controller/transaction.controller.js" />
     <entry file="file://$PROJECT_DIR$/src/route/routes.js" />
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/transaction.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -922,27 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/order.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/customer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1002,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/customer.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/transaction.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1065,13 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/transaction.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/mockData/customerMockData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1079,31 +1012,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/item.spec.js">
+    <entry file="file://$PROJECT_DIR$/models/customer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        <state relative-caret-position="297">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/models/transaction.spec.js">
+    <entry file="file://$PROJECT_DIR$/seeders/20181031062332-model-order.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/route/routes.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/services/customer.service.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="108">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1114,10 +1033,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/transaction.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/transaction.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/route/routes.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="56" column="23" lean-forward="true" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/controllers/order.controller.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        <state relative-caret-position="378">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/item.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/customer.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#441#968#0" />
+            <element signature="e#997#1182#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/services/customer.service.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>

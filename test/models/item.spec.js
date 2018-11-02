@@ -1,4 +1,5 @@
-const {expect} = require('chai');
+const chai = require('chai');
+const expect = chai.expect;
 
 const {
     sequelize,
@@ -8,6 +9,7 @@ const {
 } = require('sequelize-test-helpers');
 
 const ItemModel = require('../../models/item');
+const Transaction = require('../../models/transaction');
 
 describe('Item Model', () => {
     const Item = ItemModel(sequelize, dataTypes);
@@ -23,13 +25,12 @@ describe('Item Model', () => {
     });
 
     context('associations', () => {
-        const Transaction = require('../../models/transaction');
 
         before(() => {
             Item.associate({Transaction})
         });
 
-    /*    it('defined a hasOne association with Transaction', () => {
+/*        it('defined a hasOne association with Transaction', () => {
             expect(Item.hasOne).to.have.been.calledWith(Transaction)
         })*/
     });
