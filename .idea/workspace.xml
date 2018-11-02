@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fbfb567-b0a5-4bae-90f0-4013da6ddfb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/customer.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/customer.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/item.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/item.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/customer.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/customer.controller.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +17,7 @@
     <session id="681531337">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.131" value="1" />
           <entry key="project.open.time.15" value="2" />
@@ -475,7 +473,7 @@
       <workItem from="1540985079015" duration="19405000" />
       <workItem from="1541050121364" duration="10624000" />
       <workItem from="1541070439859" duration="6119000" />
-      <workItem from="1541137562174" duration="3189000" />
+      <workItem from="1541137562174" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="Removed logger files and subdirectories">
       <created>1540976074052</created>
@@ -716,7 +714,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199014000" />
+    <option name="totallyTimeSpent" value="199603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

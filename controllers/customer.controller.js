@@ -13,13 +13,12 @@ exports.getAllCustomers = (req, res) => {
 exports.getAllRecords = (req, res) => {
     return OrderItemRepo.getAllRecords()
         .then(orderItem => {
-            var orderitems = {};
+            let orderitems = {};
             orderItem.forEach(function (item) {
-                var order = orderitems[item.customer_name] = orderitems[item.customer_name] =
-                    orderitems[item.phone_number] = orderitems[item.phone_number] || {};
+                let order = orderitems[item.customer_name] = orderitems[item.customer_name] = orderitems[item.phone_number] = orderitems[item.phone_number] || {};
                 order[item.Domain] = true;
             });
-
+            
             console.log(JSON.stringify(orderitems, null, 4));
             res.status(200).send(orderItem)
         })
@@ -51,7 +50,7 @@ exports.update = (req, res) => {
     customerModel.Customer.update({
         customer_id: req.body.id, customer_name: req.body.customer_name,
         phone_number: req.body.phone_number
-    }, {where: {id: req.params.customer_id}})
+    }, { where: { id: req.params.customer_id } })
         .then((customer) => {
             res.status(200).send("updated successfully a customer with id = " + req.params.customer_id)
         })
@@ -59,7 +58,7 @@ exports.update = (req, res) => {
 };
 
 exports.destroy = (req, res) => {
-    customerModel.Customer.destroy({where: {customer_id: req.params.customer_id}})
+    customerModel.Customer.destroy({ where: { customer_id: req.params.customer_id } })
         .then(() => {
             res.status(200).send('deleted successfully a customer with id = ' + req.params.customer_id)
         })
