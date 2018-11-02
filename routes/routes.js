@@ -31,4 +31,5 @@ module.exports = (app) => {
     //custom routes
     app.get('/api/orderItems', ordersController.getOrderItemDetails);
     app.get('/api/all', customerController.getAllRecords);
+    app.get('/api/frequentCustomer', transactionController.getFrequentCustomer);
 };
