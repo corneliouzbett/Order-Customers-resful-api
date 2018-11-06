@@ -29,7 +29,7 @@ describe('Customers controller', () => {
                 body.status.should.eql('success');
                 body.data.length.should.eql(3);
                 body.data[0].should.include.keys(
-                  'id', 'customer_name', 'phone_number'
+                    'id', 'customer_name', 'phone_number'
                 );
                 body.data[0].name.should.eql('James woodward');
                 done();
