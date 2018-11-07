@@ -17,3 +17,18 @@ describe('Order Item Repository', () =>{
         done();
     });
 });
+
+describe('Order Item Repository', () =>{
+    it('it should a list of customer details', (done) =>{
+        let req = {};
+        let res = {
+            send: sinon.spy()
+        };
+        orderItemRepository.getCustomerOrderDetails(req,res);
+        expect(res.send.isSinonProxy).to.be.true;
+        expect(res.send.args).to.be.array;
+        expect(res.send.calledTwice).to.be.false;
+        done();
+    });
+});
+
