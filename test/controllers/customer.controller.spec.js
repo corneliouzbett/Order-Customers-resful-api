@@ -7,12 +7,12 @@
 // const customerMock = require('../mockData/customer');
 // const config = require('../../config/default.json');
 // const base = `http://localhost:${config.port}`
+// const responseBody = customerMock.responseBody;
+// const responseObject = customerMock.responseObject;
 
 // describe('Customers controller', () => {
 
 //     beforeEach(() => {
-//         const responseBody = customerMock.responseBody;
-//         const responseObject = customerMock.responseObject;
 //         this.get = sinon.stub(request, 'get');
 //     });
 //     afterEach(() => {
