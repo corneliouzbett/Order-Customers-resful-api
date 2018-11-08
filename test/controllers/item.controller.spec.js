@@ -175,3 +175,28 @@ describe("Item Controller", function () {
         expect(res.send.calledTwice).to.be.false;
     });
 });
+
+// describe("Item Controller", function () {
+//     it("should return list of items", function () {
+//         let req = {};
+//         let res = {send: sinon.spy()};
+//         ItemController.deleteItem(req, res);
+//         expect(res.send.calledOnce).to.be.false;
+//         expect(res.send.isSinonProxy).to.be.true;
+//         expect(res.send.args).to.be.array;
+//         expect(res.send.calledTwice).to.be.false;
+//         done();
+//     });
+// });
+// describe("Item Controller", function () {
+//     it("should return list of items", function () {
+//         let req = {id: 1};
+//         let res = {send: sinon.spy()};
+//         ItemController.getItemById(req, res);
+//         expect(res.send.calledOnce).to.be.false;
+//         expect(res.send.isSinonProxy).to.be.true;
+//         expect(res.send.args).to.be.array;
+//         expect(res.send.calledTwice).to.be.false;
+//         done();
+//     });
+// });

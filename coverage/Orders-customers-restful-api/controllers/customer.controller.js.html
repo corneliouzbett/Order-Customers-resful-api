@@ -20,31 +20,31 @@
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">48.48% </span>
+        <span class="strong">75.76% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>16/33</span>
+        <span class='fraction'>25/33</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">0% </span>
+        <span class="strong">100% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>0/2</span>
+        <span class='fraction'>2/2</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">31.58% </span>
+        <span class="strong">57.89% </span>
         <span class="quiet">Functions</span>
-        <span class='fraction'>6/19</span>
+        <span class='fraction'>11/19</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">48.48% </span>
+        <span class="strong">75.76% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>16/33</span>
+        <span class='fraction'>25/33</span>
       </div>
     </div>
     <p class="quiet">
       Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
     </p>
   </div>
-  <div class='status-line low'></div>
+  <div class='status-line medium'></div>
 <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -116,26 +116,26 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -185,22 +185,22 @@ exports.getAllCustomers = (req, res) =&gt; {
         .then(customer =&gt; {
             res.status(200).send(customer)
         })
-        .catch(<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(</span>err) =&gt; res.send(err));</span>
+        .catch((err) =&gt; res.send(err));
 };
 &nbsp;
-exports.getAllRecords = <span class="fstat-no" title="function not covered" >(</span>req, res) =&gt; {
-<span class="cstat-no" title="statement not covered" >    return OrderItemRepo.getAllRecords()</span>
-        .then(<span class="fstat-no" title="function not covered" >orderItem =&gt; </span>{
-            let orderitems = <span class="cstat-no" title="statement not covered" >{};</span>
-<span class="cstat-no" title="statement not covered" >            orderItem.forEach(<span class="fstat-no" title="function not covered" >function (</span>item) {</span>
-                let order = <span class="cstat-no" title="statement not covered" >orderitems[item.customer_name] = orderitems[item.customer_name]  || {};</span>
-<span class="cstat-no" title="statement not covered" >                order[item.order_date] =order[item.order_date];</span>
+exports.getAllRecords = (req, res) =&gt; {
+    return OrderItemRepo.getAllRecords()
+        .then(orderItem =&gt; {
+            let orderitems = {};
+            orderItem.forEach(function (item) {
+                let order = orderitems[item.customer_name] = orderitems[item.customer_name]  || {};
+                order[item.order_date] =order[item.order_date];
             });
 &nbsp;
-<span class="cstat-no" title="statement not covered" >            console.log(JSON.stringify(orderitems, null, 4));</span>
-<span class="cstat-no" title="statement not covered" >            res.status(200).send(orderItem)</span>
+            console.log(JSON.stringify(orderitems, null, 4));
+            res.status(200).send(orderItem)
         })
-        .catch(<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(</span>err) =&gt; res.send(err));</span>
+        .catch((err) =&gt; res.send(err));
 };
 &nbsp;
 exports.getCustomerById = (req, res) =&gt; {
@@ -247,7 +247,7 @@ exports.destroy = <span class="fstat-no" title="function not covered" >(</span>r
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Nov 08 2018 09:51:30 GMT+0300 (EAT)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Nov 08 2018 11:53:34 GMT+0300 (EAT)
 </div>
 </div>
 <script src="../../prettify.js"></script>

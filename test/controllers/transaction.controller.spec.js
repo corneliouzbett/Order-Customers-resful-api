@@ -17,3 +17,25 @@ describe('Transaction Controller', () => {
         done();
     })
 });
+
+describe('Transaction Controller', () => {
+    it('should return frequent customer', (done) => {
+        let req = {};
+        let res = {
+            send: sinon.spy()
+        };
+        transactionController.getFrequentCustomer(req, res);
+        expect(res.send.calledOnce).to.be.false;
+        expect(res.send.isSinonProxy).to.be.true;
+        expect(res.send.args).to.be.array;
+        expect(res.send.calledTwice).to.be.false;
+        done();
+    })
+});
+
+// describe('Transaction Controller', () => {
+//     it('should return a transaction', (done) => {
+//         transactionController.findTransactionById(1);
+//         done();
+//     })
+// });
