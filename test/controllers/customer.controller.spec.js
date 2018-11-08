@@ -130,34 +130,34 @@ describe('Customers controller', () => {
         });
     });
 
-    // describe('DELETE /api/customers/:id', () => {
-    //     it('should return the customer that was deleted', (done) => {
-    //         const obj = customer_mock_data.delete.success;
-    //         this.delete.yields(null, obj.res, JSON.stringify(obj.body));
-    //         request.delete(`${base}/api/customers/5`, (err, res, body) => {
-    //             res.statusCode.should.equal(200);
-    //             res.headers['content-type'].should.contain('application/json');
-    //             body = JSON.parse(body);
-    //             body.status.should.eql('success');
-    //             body.data[0].should.include.keys(
-    //                 'id', 'customer_name', 'phone_number'
-    //             );
-    //             body.data[0].customer_name.should.eql('Titanic');
-    //             done();
-    //         });
-    //     });
-    //     it('should throw an error if the customer does not exist', (done) => {
-    //         const obj = customer_mock_data.delete.failure;
-    //         this.delete.yields(null, obj.res, JSON.stringify(obj.body));
-    //         request.delete(`${base}/api/customers/5`, (err, res, body) => {
-    //             res.statusCode.should.equal(404);
-    //             res.headers['content-type'].should.contain('application/json');
-    //             body = JSON.parse(body);
-    //             body.status.should.eql('error');
-    //             body.message.should.eql('That customer does not exist.');
-    //             done();
-    //         });
-    //     });
-    // });
+    describe('DELETE /api/customers/:id', () => {
+        it('should return the customer that was deleted', (done) => {
+            const obj = customer_mock_data.delete.success;
+            this.delete.yields(null, obj.res, JSON.stringify(obj.body));
+            request.delete(`${base}/api/customers/5`, (err, res, body) => {
+                res.statusCode.should.equal(200);
+                res.headers['content-type'].should.contain('application/json');
+                body = JSON.parse(body);
+                body.status.should.eql('success');
+                body.data[0].should.include.keys(
+                    'id', 'customer_name', 'phone_number'
+                );
+                body.data[0].customer_name.should.eql('Titanic');
+                done();
+            });
+        });
+        it('should throw an error if the customer does not exist', (done) => {
+            const obj = customer_mock_data.delete.failure;
+            this.delete.yields(null, obj.res, JSON.stringify(obj.body));
+            request.delete(`${base}/api/customers/5`, (err, res, body) => {
+                res.statusCode.should.equal(404);
+                res.headers['content-type'].should.contain('application/json');
+                body = JSON.parse(body);
+                body.status.should.eql('error');
+                body.message.should.eql('That customer does not exist.');
+                done();
+            });
+        });
+    });
 
 });

@@ -11,6 +11,7 @@ describe('Order Item Repository', () =>{
             send: sinon.spy()
         };
         orderItemRepository.getAllRecords(req,res);
+        console.log(res);
         expect(res.send.isSinonProxy).to.be.true;
         expect(res.send.args).to.be.array;
         expect(res.send.calledTwice).to.be.false;
