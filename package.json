@@ -10,7 +10,7 @@
     "build": "babel src -d dist",
     "mocha": "mocha --compilers js:babel-register",
     "test": "mocha --compilers js:babel-register --recursive ./test/",
-    "test-with-coverage": "nyc --reporter=text --reporter=html mocha --compilers js:babel-register --recursive ./test/"
+    "test-with-coverage": "nyc --reporter=text-summary --reporter=html mocha --compilers js:babel-register --recursive ./test/"
   },
   "keywords": [
     "mysql",
@@ -46,7 +46,7 @@
     "jest": "^23.6.0",
     "mocha": "^2.5.3",
     "nodemon": "^1.18.5",
-    "request": "^2.83.0",
+    "request": "^2.88.0",
     "sequelize-mock": "^0.10.2",
     "sequelize-test-helpers": "^1.0.6",
     "sinon": "^7.1.1"

@@ -1,0 +1,79 @@
+{
+    "single": {
+      "success": {
+        "res": {
+          "statusCode": 200,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "success",
+          "data": [{
+            "id": 1,
+            "order_date": "bread"
+          }]
+        }
+      },
+      "failure": {
+        "res": {
+          "statusCode": 404,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "error",
+          "message": "That Order does not exist."
+        }
+      }
+    },
+    "add": {
+      "success": {
+        "res": {
+          "statusCode": 201,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "success",
+          "data": [{
+            "id": 5,
+            "order_date": "2018-11-04"
+            }]
+        }
+      }
+    },
+    "update": {
+      "success": {
+        "res": {
+          "statusCode": 200,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "success",
+          "data": [
+            {
+              "id": 5,
+              "order_date": "2018-11-01"
+            }
+          ]
+        }
+      },
+      "failure": {
+        "res": {
+          "statusCode": 404,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "error",
+          "message": "Order does not exist."
+        }
+      }
+    }
+  }
