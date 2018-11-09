@@ -1,0 +1,83 @@
+{
+    "single": {
+        "success": {
+            "res": {
+                "statusCode": 200,
+                "headers": {
+                    "content-type": "application/json"
+                }
+            },
+            "body": {
+                "status": "success",
+                "data": [{
+                    "id": 1,
+                    "order_id": 2,
+                    "item_id": 1,
+                    "quantity_ordered": 3
+                }]
+            }
+        },
+        "failure": {
+            "res": {
+                "statusCode": 404,
+                "headers": {
+                    "content-type": "application/json"
+                }
+            },
+            "body": {
+                "status": "error",
+                "message": "That transaction does not exist."
+            }
+        }
+    },
+    "add": {
+        "success": {
+            "res": {
+                "statusCode": 201,
+                "headers": {
+                    "content-type": "application/json"
+                }
+            },
+            "body": {
+                "status": "success",
+                "data": [{
+                    "id": 1,
+                    "order_id": 2,
+                    "item_id": 1,
+                    "quantity_ordered": 3
+                }]
+            }
+        }
+    },
+    "update": {
+        "success": {
+            "res": {
+                "statusCode": 200,
+                "headers": {
+                    "content-type": "application/json"
+                }
+            },
+            "body": {
+                "status": "success",
+                "data": [{
+                    "id": 1,
+                    "order_id": 2,
+                    "item_id": 1,
+                    "quantity_ordered": 3
+                }]
+            }
+        },
+        "failure": {
+            "res": {
+                "statusCode": 404,
+                "headers": {
+                    "content-type": "application/json"
+                }
+            },
+            "body": {
+                "status": "error",
+                "message": "Transaction does not exist."
+            }
+        }
+    }
+}

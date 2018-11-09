@@ -1,0 +1,82 @@
+{
+    "single": {
+      "success": {
+        "res": {
+          "statusCode": 200,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "success",
+          "data": [{
+            "id": 1,
+            "item_name": "bread",
+            "unit_cost": 34
+          }]
+        }
+      },
+      "failure": {
+        "res": {
+          "statusCode": 404,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "error",
+          "message": "That item does not exist."
+        }
+      }
+    },
+    "add": {
+      "success": {
+        "res": {
+          "statusCode": 201,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "success",
+          "data": [{
+            "id": 5,
+            "item_name": "milk",
+            "unit_cost": 45
+          }]
+        }
+      }
+    },
+    "update": {
+      "success": {
+        "res": {
+          "statusCode": 200,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "success",
+          "data": [
+            {
+              "id": 5,
+              "item_name": "fat",
+              "unit_cost": 20
+            }
+          ]
+        }
+      },
+      "failure": {
+        "res": {
+          "statusCode": 404,
+          "headers": {
+            "content-type": "application/json"
+          }
+        },
+        "body": {
+          "status": "error",
+          "message": "Item does not exist."
+        }
+      }
+    }
+  }

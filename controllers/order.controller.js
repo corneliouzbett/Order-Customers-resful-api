@@ -7,7 +7,7 @@ const log = console.log;
 exports.createOrder = (req, res) => {
     models.Order.create({ id: req.body.id, order_date: req.body.order_date, customer_id: req.body.customer_id})
         .then(order => {
-            res.status(200).send(order);
+            res.status(201).send(order);
             log(chalk.blue("success:  created order with ID :: "+req.body.id));
         });
 };
